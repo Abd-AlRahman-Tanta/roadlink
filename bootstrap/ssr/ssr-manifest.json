@@ -1,0 +1,14 @@
+{
+  "resources/js/Components/Button.tsx": [],
+  "resources/js/Components/Common/Headline.tsx": [],
+  "resources/js/Components/Input.tsx": [],
+  "resources/js/Components/Popups/StatusPopup.tsx": [],
+  "resources/js/Layouts/AuthLayout.tsx": [],
+  "resources/js/Layouts/DashboardLayout.tsx": [],
+  "resources/js/Pages/Auth/Login.tsx": [],
+  "resources/js/Pages/Auth/Register.tsx": [],
+  "resources/js/Pages/Dashboard.tsx": [],
+  "resources/js/Pages/NotFound.tsx": [],
+  "resources/js/Pages/Welcome.tsx": [],
+  "resources/js/ssr.tsx": []
+}
