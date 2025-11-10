@@ -1,0 +1,296 @@
+{
+  "nav": {
+    "logo": "/storage/images/logo.webp",
+    "navLinks": [
+      {
+        "text": "Our Services",
+        "link": "#ourServices"
+      },
+      {
+        "text": "Steps",
+        "link": "#steps"
+      },
+      {
+        "text": "B2C Solutions",
+        "link": "#solutions"
+      },
+      {
+        "text": "About Us",
+        "link": "#roadLink"
+      },
+      {
+        "text": "Our Partners",
+        "link": "#certified"
+      },
+      {
+        "text": "FAQ",
+        "link": "#questions"
+      },
+      {
+        "text": "Contact Us",
+        "link": "#contact"
+      }
+    ],
+    "lang": {
+      "text": "ع",
+      "icon": "/storage/images/web.png"
+    }
+  },
+  "hero": {
+    "image": "/storage/images/hero.webp",
+    "title": "RoadLink",
+    "description": "Your trusted partner for reliable deliveries",
+    "button": {
+      "text": "Get a Quote",
+      "link": "/"
+    }
+  },
+  "properties": [
+    {
+      "icon": "/storage/images/icon1.webp",
+      "description": "Weekly payment collection"
+    },
+    {
+      "icon": "/storage/images/icon2.webp",
+      "description": "Instant tracking"
+    },
+    {
+      "icon": "/storage/images/icon3.webp",
+      "description": "Fast support"
+    },
+    {
+      "icon": "/storage/images/icon4.webp",
+      "description": "Flexible shipping options"
+    }
+  ],
+  "ourServices": {
+    "title": "Our Services",
+    "services": [
+      {
+        "image": "/storage/images/service.webp",
+        "description": "Express Shipping",
+        "explainations": [
+          "Same-day delivery",
+          "Real-time tracking",
+          "Proof of delivery",
+          "Cash on delivery",
+          "Delivery across all regions of the Kingdom"
+        ]
+      },
+      {
+        "image": "/storage/images/plane.webp",
+        "description": "Personal Account Management",
+        "explainations": [
+          "Your personal account manager will assist you from start to finish. Whether your inquiry is about shipping, tracking, or billing, full support is always available."
+        ]
+      },
+      {
+        "image": "/storage/images/hand.webp",
+        "description": "Reverse Pickup Service",
+        "explainations": [
+          "We simplify return and pickup operations for your customers with ease.",
+          "Quick pickup scheduling",
+          "Instant status updates",
+          "Customer support"
+        ]
+      }
+    ]
+  },
+  "giveAndRecieve": {
+    "title": "Send and Receive in Four Steps",
+    "arrowImage": "/storage/images/arrow.png",
+    "steps": [
+      {
+        "title": "Create Your Order",
+        "image": "/storage/images/icon5.webp",
+        "description": "Shipment details and address."
+      },
+      {
+        "image": "/storage/images/icon6.webp",
+        "title": "Pickup",
+        "description": "From your store, warehouse, or collection point."
+      },
+      {
+        "image": "/storage/images/icon7.webp",
+        "title": "Live Tracking",
+        "description": "Share the tracking link with your customer."
+      },
+      {
+        "image": "/storage/images/icon8.webp",
+        "title": "Delivery",
+        "description": "Electronic confirmation and performance reports."
+      }
+    ]
+  },
+  "logesticSolutions": {
+    "image": "/storage/images/trucks.webp",
+    "title": "Logistics Solutions for Businesses and E-Stores",
+    "solutions": [
+      "Service Level Agreements (SLAs)",
+      "Monthly reports",
+      "Support for your expansion locally and nationally",
+      "Storage and shipment distribution options"
+    ],
+    "button": {
+      "text": "Open Your Account Now!",
+      "link": "/"
+    }
+  },
+  "roadLink": {
+    "title": "RoadLink",
+    "image": "/storage/images/eng.webp",
+    "descriptions": [
+      "We are a Saudi company providing shipping and delivery solutions from stores and companies to end customers across the Kingdom.",
+      "We design customized offers and flexible contracts that support our partners’ growth and meet seasonal and sectoral demands.",
+      "We combine speed and flexibility with modern technology and real-time tracking to enhance supply chain efficiency and reduce costs.",
+      "We ensure a seamless customer experience from order creation to proof of delivery, with clear performance reports for better decision-making."
+    ]
+  },
+  "ourValue": {
+    "title": "Our Values",
+    "values": [
+      {
+        "image": "/storage/images/icon9.webp",
+        "description": "Reliability and Trust"
+      },
+      {
+        "image": "/storage/images/icon10.webp",
+        "description": "Flexibility in Solutions"
+      },
+      {
+        "image": "/storage/images/icon11.webp",
+        "description": "Continuous Service Improvement"
+      },
+      {
+        "image": "/storage/images/icon12.webp",
+        "description": "Your Success is Our Priority"
+      }
+    ]
+  },
+  "certifiedFor": {
+    "title": "Certified By",
+    "images": [
+      "/storage/images/zid.webp",
+      "/storage/images/salla.webp",
+      "/storage/images/torod.webp",
+      "/storage/images/oto.webp"
+    ]
+  },
+  "commonQuestions": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "title": "Can I track my shipment?",
+        "titleLink": "/",
+        "description": "What are the conditions for free shipping?",
+        "descriptionLink": "/"
+      },
+      {
+        "title": "What is your return policy?",
+        "titleLink": "/",
+        "description": "What is your compensation policy in case of lost shipment?",
+        "descriptionLink": "/"
+      },
+      {
+        "title": "Are there any additional fees for international shipping?",
+        "titleLink": "/",
+        "description": "How can I cancel a shipment after placing the order?",
+        "descriptionLink": "/"
+      },
+      {
+        "title": "How long do you keep uncollected orders?",
+        "titleLink": "/",
+        "description": "How can I file a complaint about shipping service?",
+        "descriptionLink": "/"
+      },
+      {
+        "title": "What shipping options do you offer?",
+        "titleLink": "/",
+        "description": "Can I change the payment method upon shipping?",
+        "descriptionLink": "/"
+      },
+      {
+        "title": "Do you offer same-day delivery service?",
+        "titleLink": "/",
+        "description": "Do you provide international shipping?",
+        "descriptionLink": "/"
+      },
+      {
+        "title": "What is the expected delivery time?",
+        "titleLink": "/",
+        "description": "Do you offer fast shipping options?",
+        "descriptionLink": "/"
+      },
+      {
+        "title": "How can I change the shipping address after placing an order?",
+        "titleLink": "/",
+        "description": "Which companies do you partner with for shipping?",
+        "descriptionLink": "/"
+      }
+    ]
+  },
+  "contactUs": {
+    "image": "/storage/images/trucks2.webp",
+    "title": "Contact Us",
+    "inputs": [
+      {
+        "label": "Name",
+        "type": "text",
+        "name": "name"
+      },
+      {
+        "label": "Email",
+        "type": "email",
+        "name": "email"
+      },
+      {
+        "label": "Company Field",
+        "type": "text",
+        "name": "company_field"
+      },
+      {
+        "label": "Message Text",
+        "type": "textarea",
+        "name": "message"
+      }
+    ],
+    "button": {
+      "type": "submit",
+      "text": "Contact Us"
+    }
+  },
+  "footer": {
+    "whoAreWe": {
+      "title": "About Us",
+      "description": "We are RoadLink Logistics, a Saudi company providing comprehensive shipping and delivery solutions for e-stores, businesses, and individuals inside and outside the Kingdom.",
+      "locationIcon": "/storage/images/location.png",
+      "location": "Al-Sulay District, Riyadh, Saudi Arabia"
+    },
+    "ourServices": {
+      "title": "Our Services",
+      "services": [
+        "Express Shipping",
+        "Reverse Pickup Service",
+        "Urgent Delivery"
+      ]
+    },
+    "contactWithUs": {
+      "title": "Contact Us",
+      "informations": [
+        {
+          "image": "/storage/images/mail.png",
+          "content": "info@road-link.sa"
+        },
+        {
+          "image": "/storage/images/mail.png",
+          "content": "www.road-link.sa"
+        },
+        {
+          "image": "/storage/images/phone.png",
+          "content": "920031877"
+        }
+      ]
+    },
+    "rights": "© 2025 RoadLink Logistics. All rights reserved."
+  }
+}

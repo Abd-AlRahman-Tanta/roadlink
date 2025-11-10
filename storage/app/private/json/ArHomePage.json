@@ -1,0 +1,292 @@
+{
+  "nav": {
+    "logo": "/storage/images/logo.webp",
+    "navLinks": [
+      {
+        "text": "خدماتنا",
+        "link": "#ourServices"
+      },
+      {
+        "text": "الخطوات",
+        "link": "#steps"
+      },
+      {
+        "text": "حلول B2C",
+        "link": "#solutions"
+      },
+      {
+        "text": "من نحن",
+        "link": "#roadLink"
+      },
+      {
+        "text": "شركاؤنا",
+        "link": "#certified"
+      },
+      {
+        "text": "الأسئلة الشائعة",
+        "link": "#questions"
+      },
+      {
+        "text": "تواصل معنا",
+        "link": "#contact"
+      }
+    ],
+    "lang": {
+      "text": "En",
+      "icon": "/storage/images/web.png"
+    }
+  },
+  "hero": {
+    "image": "/storage/images/hero.webp",
+    "title": "رودلينك",
+    "description": "شريكك الموثوق لتوصيل شحناتك",
+    "button": {
+      "text": "احصل على عرض سعر",
+      "link": "/"
+    }
+  },
+  "properties": [
+    {
+      "icon": "/storage/images/icon1.webp",
+      "description": "تحصيل الدفع بشكل اسبوعي"
+    },
+    {
+      "icon": "/storage/images/icon2.webp",
+      "description": " تتبع فوري"
+    },
+    {
+      "icon": "/storage/images/icon3.webp",
+      "description": "دعم سريع"
+    },
+    {
+      "icon": "/storage/images/icon4.webp",
+      "description": "خيارات شحن مرنة"
+    }
+  ],
+  "ourServices": {
+    "title": "خدماتنا",
+    "services": [
+      {
+        "image": "/storage/images/service.webp",
+        "description": "الشحن السريع",
+        "explainations": [
+          "توصيل في نفس اليوم",
+          "تتبع لحظي",
+          "اثبات التسليم",
+          "دفع عن الاستلام",
+          "توصيل لجميع مناطق المملكة"
+        ]
+      },
+      {
+        "image": "/storage/images/plane.webp",
+        "description": "إدارة الحساب الشخصي",
+        "explainations": [
+          "مدير حسابك الشخصي سيرافقك من البداية الى النهاية ,سواء كان استفسارك عن الشحن او تتبع الطلبات او ادارة الفواتير ستجد الدعم الكامل متاح دائما"
+        ]
+      },
+      {
+        "image": "/storage/images/hand.webp",
+        "description": "خدمة الاستلام العكسي",
+        "explainations": [
+          "نسهل عمليات الارجاع والاستلام من عملائك بسهولة",
+          "جدولة استلام سريعة",
+          "تحديثات الحالة الفورية",
+          "دعم العملاء"
+        ]
+      }
+    ]
+  },
+  "giveAndRecieve": {
+    "title": "سلم واستلم في أربع خطوات",
+    "arrowImage": "/storage/images/arrow.png",
+    "steps": [
+      {
+        "title": "أنشئ طلبك",
+        "image": "/storage/images/icon5.webp",
+        "description": "بيانات الشحنة والعنوان."
+      },
+      {
+        "image": "/storage/images/icon6.webp",
+        "title": "الاستلام",
+        "description": "من متجرك/مستودعك أو نقطة تجمع."
+      },
+      {
+        "image": "/storage/images/icon7.webp",
+        "title": "التتبع المباشر",
+        "description": "شارك رابط التتبع مع عميلك."
+      },
+      {
+        "image": "/storage/images/icon8.webp",
+        "title": "التسليم",
+        "description": "تأكيد إلكتروني وتقارير أداء."
+      }
+    ]
+  },
+  "logesticSolutions": {
+    "image": "/storage/images/trucks.webp",
+    "title": "حلول لوجستية للشركات والمتاجر الإلكترونية",
+    "solutions": [
+      "اتفاقيات خدمة (SLAs)",
+      "تقارير شهرية",
+      "دعم توسّعكم محليًا ووطنيًا ",
+      "خيارات تخزين وتجزئة شحنات"
+    ],
+    "button": {
+      "text": "افتح حسابك الآن",
+      "link": "/"
+    }
+  },
+  "roadLink": {
+    "title": "رود لينك",
+    "image": "/storage/images/eng.webp",
+    "descriptions": [
+      "نحن شركة سعودية تقدّم حلول الشحن والتوصيل من المتاجر والشركات إلى العميل النهائي في أنحاء المملكة.",
+      "نصمّم عروضًا مخصّصة وعقودًا مرنة تدعم نمو شركائنا وتواكب مواسم الذروة وتنوّع القطاعات.",
+      "نمزج السرعة بالمرونة مع التقنيات الحديثة والتتبّع اللحظي لرفع كفاءة سلاسل الإمداد وخفض التكلفة.",
+      " نحرص على تجربة عميل سلسة من إنشاء الطلب حتى إثبات التسليم مع تقارير أداء واضحة لاتخاذ قرارات أفضل."
+    ]
+  },
+  "ourValue": {
+    "title": "قيمنا",
+    "values": [
+      {
+        "image": "/storage/images/icon9.webp",
+        "description": "الاعتمادية والثقة"
+      },
+      {
+        "image": "/storage/images/icon10.webp",
+        "description": "المرونة في الحلول"
+      },
+      {
+        "image": "/storage/images/icon11.webp",
+        "description": "تحسين مستمر للخدمات"
+      },
+      {
+        "image": "/storage/images/icon12.webp",
+        "description": "نجاحكم أولويتنا"
+      }
+    ]
+  },
+  "certifiedFor": {
+    "title": "معتمدون لدى",
+    "images": [
+      "/storage/images/zid.webp",
+      "/storage/images/salla.webp",
+      "/storage/images/torod.webp",
+      "/storage/images/oto.webp"
+    ]
+  },
+  "commonQuestions": {
+    "title": "الأسئلة الشائعة",
+    "questions": [
+      {
+        "title": "هل يمكنني تتبع شحنتي؟",
+        "titleLink": "/",
+        "description": "ما هي شروط الشحن المجاني؟",
+        "descriptionLink": "/"
+      },
+      {
+        "title": "ما هي سياسة الإرجاع الخاصة بكم؟",
+        "titleLink": "/",
+        "description": "ما هي سياسة التعويض في حالة فقدان الشحنة؟",
+        "descriptionLink": "/"
+      },
+      {
+        "title": "هل يوجد رسوم إضافية على الشحن الدولي؟",
+        "titleLink": "/",
+        "description": "كيف يمكنني إلغاء شحنة بعد الطلب؟",
+        "descriptionLink": "/"
+      },
+      {
+        "title": "ما هي مدة الاحتفاظ بالطلبات غير المستلمة؟",
+        "titleLink": "/",
+        "description": "كيف يمكنني تقديم شكوى حول خدمة الشحن؟",
+        "descriptionLink": "/"
+      },
+      {
+        "title": "ما هي خيارات الشحن المتاحة لديكم؟",
+        "titleLink": "/",
+        "description": "هل يمكنني تغيير طريقة الدفع عند الشحن؟",
+        "descriptionLink": "/"
+      },
+      {
+        "title": "هل تقدمون خدمة التوصيل في نفس اليوم؟",
+        "titleLink": "/",
+        "description": "هل توفرون شحنات دولية؟",
+        "descriptionLink": "/"
+      },
+      {
+        "title": "ما هو الوقت المتوقع لوصول الطلب؟",
+        "titleLink": "/",
+        "description": "هل تقدمون خيارات شحن سريعة؟",
+        "descriptionLink": "/"
+      },
+      {
+        "title": "كيف يمكنني تغيير عنوان الشحن بعد إتمام الطلب؟",
+        "titleLink": "/",
+        "description": "ما هي الشركات التي تتعاملون معها في الشحن؟",
+        "descriptionLink": "/"
+      }
+    ]
+  },
+  "contactUs": {
+    "image": "/storage/images/trucks2.webp",
+    "title": "تواصل معنا",
+    "inputs": [
+      {
+        "label": "الاسم",
+        "type": "text",
+        "name": "name"
+      },
+      {
+        "label": "البريد الإلكتروني",
+        "type": "email",
+        "name": "email"
+      },
+      {
+        "label": "مجال الشركة",
+        "type": "text",
+        "name": "company_field"
+      },
+      {
+        "label": "نص الرسالة",
+        "type": "textarea",
+        "name": "message"
+      }
+    ],
+    "button": {
+      "type": "submit",
+      "text": "تواصل معنا"
+    }
+  },
+  "footer": {
+    "whoAreWe": {
+      "title": "من نحن",
+      "description": "نحن رودلينك لوجستكس شركة سعودية تقدّم حلول شحن وتوصيل متكاملة للمتاجر الإلكترونية والشركات والأفراد داخل المملكة وخارجها.",
+      "locationIcon": "/storage/images/location.png",
+      "location": "حي السلي، الرياض، المملكة العربية السعودية"
+    },
+    "ourServices": {
+      "title": "خدماتنا",
+      "services": ["الشحن السريع", "خدمة الاستلام العكسي", "توصيل عاجل جداً"]
+    },
+    "contactWithUs": {
+      "title": "تواصل معنا",
+      "informations": [
+        {
+          "image": "/storage/images/mail.png",
+          "content": "info@road-link.sa"
+        },
+        {
+          "image": "/storage/images/mail.png",
+          "content": "www.road-link.sa"
+        },
+        {
+          "image": "/storage/images/phone.png",
+          "content": "920031877"
+        }
+      ]
+    },
+    "rights": "© 2025 RoadLink Logistics. All rights reserved."
+  }
+}

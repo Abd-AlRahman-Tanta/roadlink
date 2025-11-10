@@ -26,12 +26,13 @@ export type PropertiesProps = { icon: string, description: string }[]
 // OurServicesProps interface
 export type OurServicesProps = {
   title: string,
-  services: { image: string, description: string }[]
+  services: { image: string, description: string, explainations: string[] }[]
 }
 //giveAndRecieve interface
 export type GiveAndRecieveProps = {
   title: string,
-  steps: { image: string, description: string, title: string, arrowImage?: string }[]
+  arrowImage: string,
+  steps: { image: string, description: string, title: string }[]
 }
 // logesticSolutions interface
 export type LogesticSolutionsProps = {

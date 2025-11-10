@@ -6,6 +6,7 @@ const Properties = ({ properties }: { properties: PropertiesProps }) => {
     <div className="w-full flex justify-center items-center gap-5  ">
       {
         properties.map((property, i) =>
+          // each property has icon and description
           (<Property key={i} image={property.icon} description={property.description} />))
       }
     </div>

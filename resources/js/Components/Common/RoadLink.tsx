@@ -7,10 +7,11 @@ import Tall from "./Tall"
 const RoadLink = ({ roadLink }: { roadLink: RoadLinkProps }) => {
   return (
     <div id="roadLink">
+      {/* title of section */}
       <SectionTitle className=" sectionTitle font-bold text-buttonBg mb-9 " children={roadLink.title} />
       {/* under the title */}
       <div className=" w-full flex justify-center items-start gap-5 ">
-        {/* img */}
+        {/* img of the section with layer */}
         <div className=" max-w-md w-full aspect-[1.4] relative rounded-lg overflow-hidden ">
           <img className=" absCover " src={roadLink.image} alt="" />
           <RegularLayer />
@@ -20,6 +21,7 @@ const RoadLink = ({ roadLink }: { roadLink: RoadLinkProps }) => {
           {
             roadLink.descriptions.map((description, i) => (
               <div className=" w-full flex justify-start items-start gap-3  " key={i}>
+                {/* this <Tall/> jsx element is the orange stick in the right of each description */}
                 <Tall className=" w-2 h-36 " />
                 <Description className=" text-xl  text-roadLinkText py-6 " children={description} />
               </div>
