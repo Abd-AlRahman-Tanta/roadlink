@@ -1,8 +1,8 @@
 import { ReactNode } from 'react'
 
-const Description = ({ children, className }: { children: ReactNode | string, className?: string }) => {
+const Description = ({ children, className, dir }: { dir?: string, children: ReactNode | string, className?: string }) => {
   return (
-    <p className={`${className}`}>
+    <p dir={`${dir && dir}`} className={`${className}`}>
       {children}
     </p>
   )

@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
 @layer utilities {
   .absCenter {
     @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
@@ -47,6 +70,10 @@
     @apply bg-gradient-to-t to-heroLayerColorEnd from-heroLayerColorStart from-[50%];
   }
 
+  .footerGradient {
+    @apply bg-gradient-to-t from-[#121539] from-80% to-[#191C3A] to-100%
+  }
+
   .regularLayer {
     @apply bg-gradient-to-b from-regularLayerStart from-10% to-regularLayerEnd to-50%;
   }
@@ -54,53 +81,21 @@
   .saveSpace {
     @apply px-[120px]
   }
+
+  .max-screen {
+    @apply max-w-[1920px]
+  }
 }
-
-
-
-/* .col-span-2 {
-  grid-column: span 2 / span 2;
-} */
 
 html {
   scroll-behavior: smooth !important;
-  max-width: 100vw;
-  overflow-x: clip;
 }
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
 
-a {
-  text-decoration: none;
-}
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-input:focus {
-  outline: none;
-}
 
 .notificationMessage {
   @apply fixed top-4 right-4 flex items-center gap-2 px-6 py-3 rounded-lg shadow-lg text-white animate-fadeInRight;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  font-family: "Cairo Variable", sans-serif !important;
 }
 
 .loader {
@@ -112,6 +107,34 @@ body {
   -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
   animation: l13 1s infinite linear;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Number Input Remove arrows */
 input[type="number"]::-webkit-outer-spin-button,
@@ -155,8 +178,4 @@ input[type="number"] {
 
 .scrollbarCustom::-webkit-scrollbar-thumb:active {
   background-color: #faa82c;
-}
-
-.layout {
-  width: 100%;
 }

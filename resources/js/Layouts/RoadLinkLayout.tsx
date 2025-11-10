@@ -4,7 +4,7 @@ const RoadLinkLayout = ({ children }) => {
   const { locale } = usePage().props
   let rtl = locale == "ar";
   return (
-    <div dir={rtl ? "rtl" : "ltr"} className="layout  min-h-screen mx-auto ">
+    <div dir={rtl ? "rtl" : "ltr"} className={`max-screen rtl:font-[Changa] ltr:font-[Inter]  min-h-screen mx-auto `}>
       {children}
     </div>
   )

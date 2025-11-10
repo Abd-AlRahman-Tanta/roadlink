@@ -7,7 +7,7 @@ use Modules\HomePage\Http\Controllers\HomePageController;
 Route::group(
   [
     "prefix" => "/" . LaravelLocalization::setLocale(),
-    "middleware" => ["localizationRedirect", "localeSessionRedirect"]
+    "middleware" => ['localeSessionRedirect', 'localizationRedirect']
   ],
   function () {
     Route::get("/", [HomePageController::class, "showHomePage"]);

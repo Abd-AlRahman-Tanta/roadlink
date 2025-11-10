@@ -1,7 +1,7 @@
 
 const Tall = ({ className }: { className?: string }) => {
   return (
-    <div className={`w-1 bg-buttonBg rounded-md ${className}`}></div>
+    <div className={` bg-buttonBg rounded-md ${className}`}></div>
   )
 }
 

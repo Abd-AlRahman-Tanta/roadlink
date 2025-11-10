@@ -29,6 +29,8 @@ export default {
         whiteIconBg : "rgba(255, 255, 255 , 10%)" ,
         homePageBack : "#F7F9FC" ,
         none: "transparent",
+        giveAndRecieveBackgroundColor : "#121539" ,
+        roadLinkText : "#121539"
       },
       fontFamily: {
         cairo: ["Cairo", ...defaultTheme.fontFamily.sans],

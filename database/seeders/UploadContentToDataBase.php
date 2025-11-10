@@ -14,11 +14,17 @@ class UploadContentToDataBase extends Seeder
    */
   public function run(): void
   {
-    $arHomePage = BringJson::read("HomePage");
+    $arHomePage = BringJson::read("ArHomePage");
     Content::create([
       "page_name" => "HomePage",
       "lang" => "ar",
       "data" => $arHomePage
+    ]);
+    $enHomePage = BringJson::read("EnHomePage");
+    Content::create([
+      "page_name" => "HomePage",
+      "lang" => "en",
+      "data" => $enHomePage
     ]);
   }
 }
