@@ -7,7 +7,7 @@ const WhoAreWe = ({ title, description, locationIcon, location }: { title: strin
       <SectionTitle className="text-start text-2xl  font-bold text-buttonBg mb-5 " children={title} />
       <Description className=" text-white/85 text-justify mb-4 " children={description} />
       <div className=" flex justify-start items-start gap-3 ">
-        <img className=" self-end " src={locationIcon} alt="" />
+        <img className=" self-end desc:self-center " src={locationIcon} alt="" />
         <Description className=" text-white/85 text-justify " children={location} />
       </div>
     </div>

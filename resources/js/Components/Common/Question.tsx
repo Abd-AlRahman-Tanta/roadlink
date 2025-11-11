@@ -21,7 +21,7 @@ const Question = ({ title, titleLink, description, descriptionLink }: { title: s
     return () => window.removeEventListener("click", closeNow);
   })
   return (
-    <div ref={question} onClick={openOrClose} className={`${open ? "max-h-80" : "max-h-16"}  cursor-pointer w-full px-5 py-6 bg-white rounded-lg duration-300  overflow-hidden `}>
+    <div ref={question} onClick={openOrClose} className={`${open ? "max-h-80" : "max-h-20 desc:max-h-28"}  cursor-pointer w-full px-5 py-6 bg-white rounded-lg duration-300  overflow-hidden `}>
       {/* question title with arrow icon */}
       <div className=" w-full flex justify-between items-start gap-5  ">
         <Description children={title} className=" text-xl text-buttonBg  " />
@@ -30,7 +30,7 @@ const Question = ({ title, titleLink, description, descriptionLink }: { title: s
         </div>
       </div>
       {/* this will show when click on the question */}
-      <Description children={description} className=" text-lg mt-3 text-black " />
+      <Description children={description} className=" text-lg mt-10 desc:mt-20 text-black  " />
     </div>
   )
 }

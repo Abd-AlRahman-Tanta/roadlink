@@ -1,6 +1,7 @@
 {
   "nav": {
     "logo": "/storage/images/logo.webp",
+    "moreText": "المزيد",
     "navLinks": [
       {
         "text": "خدماتنا",

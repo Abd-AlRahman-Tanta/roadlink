@@ -1,6 +1,7 @@
 // header interfaces
 export interface NavBarProps {
   logo: string,
+  moreText: string,
   navLinks: { text: string, link: string }[],
   lang: { text: string, icon: string }
 }

@@ -8,7 +8,7 @@ const OurValues = ({ ourValue }: { ourValue: OurValuesProps }) => {
       {/* title of section */}
       <SectionTitle children={ourValue.title} className=" sectionTitle font-bold text-buttonBg mb-6 " />
       {/* steps container which it is values here.. */}
-      <div className=" w-full flex justify-center items-start gap-5 ">
+      <div className=" w-full flex desc:flex-col justify-center items-start gap-5 ">
         {
           ourValue.values.map((value, i) => (
             <div key={i} className="w-full  rounded-lg p-5 bg-giveAndRecieveBackgroundColor text-center ">

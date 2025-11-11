@@ -4,7 +4,7 @@ import Solutions from "./Solutions"
 
 const LogesticSolutions = ({ logesticSolutions }: { logesticSolutions: LogesticSolutionsProps }) => {
   return (
-    <div id="solutions" className=" w-full flex justify-center items-start gap-5 mt-20  ">
+    <div id="solutions" className=" w-full flex desc:flex-col-reverse justify-center items-start gap-5 mt-20  ">
       {/* logestic solutions */}
       <Solutions title={logesticSolutions.title} solutions={logesticSolutions.solutions} button={logesticSolutions.button} />
       {/* picture of the section  with layer */}

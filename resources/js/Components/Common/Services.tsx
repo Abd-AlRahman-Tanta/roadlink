@@ -8,7 +8,7 @@ const Services = ({ ourServices }: { ourServices: OurServicesProps }) => {
       {/* title of section */}
       <SectionTitle className=" sectionTitle font-bold  text-buttonBg mb-9" children={ourServices.title} />
       {/* each service contains img with layer as background and the title of service with its explainations */}
-      <div className=" w-full flex justify-center items-center gap-5 ">
+      <div className=" w-full flex desc:flex-col justify-center items-center gap-5 ">
         {
           ourServices.services.map((service, i) => (<Service key={i} explainations={service.explainations} image={service.image} description={service.description} />))
         }

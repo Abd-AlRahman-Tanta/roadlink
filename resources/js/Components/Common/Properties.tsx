@@ -3,7 +3,7 @@ import Property from "./Property"
 
 const Properties = ({ properties }: { properties: PropertiesProps }) => {
   return (
-    <div className="w-full flex justify-center items-center gap-5  ">
+    <div className="w-full flex desc:flex-col justify-center items-center gap-5  ">
       {
         properties.map((property, i) =>
           // each property has icon and description

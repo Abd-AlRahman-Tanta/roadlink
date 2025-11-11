@@ -79,7 +79,7 @@ input:focus {
   }
 
   .saveSpace {
-    @apply px-[120px]
+    @apply px-[120px] desc:px-[20px]
   }
 
   .max-screen {

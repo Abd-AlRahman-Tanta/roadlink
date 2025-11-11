@@ -11,7 +11,7 @@ const CommonQuestions = ({ commonQuestions }: { commonQuestions: CommonQuestions
 
       {/* questions container */}
 
-      <div className=" w-full flex justify-start items-start  gap-5 ">
+      <div className=" w-full flex desc:flex-col justify-start items-start  gap-5 ">
         {/* right container of questions */}
         <div className=" w-full flex flex-col justify-start items-start gap-5 ">
           {

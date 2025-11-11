@@ -4,7 +4,7 @@ import RegularLayer from './RegularLayer'
 
 const ContactUs = ({ contactUs }: { contactUs: ContactUsProps }) => {
   return (
-    <div id='contact' className='w-full flex justify-center items-start gap-5 mt-36 '>
+    <div id='contact' className='w-full flex desc:flex-col-reverse justify-center items-start gap-5 mt-36 '>
       {/* form of this section */}
       <ContactUsForm button={contactUs.button} title={contactUs.title} inputs={contactUs.inputs} />
       {/* img of section with its layer */}

@@ -21,13 +21,13 @@ const GiveAndRecieve = ({ giveAndRecieve }: { giveAndRecieve: GiveAndRecieveProp
     return () => clearInterval(count);
   }, [])
   return (
-    <div id="steps" className=" w-full py-20 px-24 rounded-lg bg-giveAndRecieveBackgroundColor mt-20  ">
+    <div id="steps" className=" w-full py-20 px-24 desc:p-10 rounded-lg bg-giveAndRecieveBackgroundColor mt-20  ">
       {/* the title of section */}
       <SectionTitle className=" text-white sectionTitle font-bold mb-28 " children={giveAndRecieve.title} />
       {/* the container of steps */}
 
       {/* each step can recieve an image and imageClassName for <icon/> jsx element...and title with description for the step...and arrowImage picture ...and 2 boolean parameters active , lastOne to set wich step it is active and which step is the last one  */}
-      <div className=" w-full flex justify-center items-start gap-16 ">
+      <div className=" w-full flex desc:flex-col justify-center items-start gap-16 ">
         {
           giveAndRecieve.steps.map((step, i) => (<Step lastOne={arrowChange == giveAndRecieve.steps.length - 1} active={i == arrowChange} key={i} image={step.image} title={step.title} arrowImage={giveAndRecieve.arrowImage} description={step.description} />))
         }
