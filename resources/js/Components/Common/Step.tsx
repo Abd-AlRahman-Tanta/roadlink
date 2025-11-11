@@ -1,7 +1,7 @@
 import Description from "./Description";
 import Icon from "./Icon";
 
-const Step = ({ title, image, description, arrowImage, imageClassName, active, lastOne }: { lastOne?: boolean, active?: boolean, imageClassName?: string, title?: string, image: string, description: string, arrowImage?: string }) => {
+const Step = ({ title, image, description, arrowImage, imageClassName, active, lastOne, descriptionTextSize }: { lastOne?: boolean, active?: boolean, imageClassName?: string, title?: string, image: string, description?: string, arrowImage?: string, descriptionTextSize?: string }) => {
   return (
     <div className=" w-full flex flex-col justify-center items-center gap-4 ">
       {/* iamgeClassName and image for icon jsx element */}
@@ -18,7 +18,7 @@ const Step = ({ title, image, description, arrowImage, imageClassName, active, l
           // this will be rendered in ourValues Section
           <Description className="w-full text-xl text-center font-bold text-white rounded-md  " children={title} />
       }
-      <Description className="w-full text-lg text-white  " children={description} />
+      <Description className={`w-full  text-white ${descriptionTextSize}  `} children={description} />
     </div>
   )
 }

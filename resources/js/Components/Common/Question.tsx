@@ -30,7 +30,7 @@ const Question = ({ title, titleLink, description, descriptionLink }: { title: s
         </div>
       </div>
       {/* this will show when click on the question */}
-      <Description children={description} className=" text-lg mt-10 desc:mt-20 text-black  " />
+      <Description children={description} className=" text-lg mt-10 desc:mt-14 text-black  " />
     </div>
   )
 }

@@ -10,7 +10,7 @@ const Services = ({ ourServices }: { ourServices: OurServicesProps }) => {
       {/* each service contains img with layer as background and the title of service with its explainations */}
       <div className=" w-full flex desc:flex-col justify-center items-center gap-5 ">
         {
-          ourServices.services.map((service, i) => (<Service key={i} explainations={service.explainations} image={service.image} description={service.description} />))
+          ourServices.services.map((service, i) => (<Service layerDestination={i == 0 ? "from-40% to-85%" : "from-5% to-50% "} key={i} explainations={service.explainations} image={service.image} description={service.description} />))
         }
       </div>
     </div>

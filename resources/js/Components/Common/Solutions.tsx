@@ -11,12 +11,12 @@ const Solutions = ({ title, solutions, button }: { title: string, solutions: str
       {/* container of solutions with grid shape */}
       <div className=" w-full  grid grid-cols-2 desc:grid-cols-1 gap-5 mb-9 mx-auto ">
         {
-          solutions.map((solution, i) => (<Description className=" w-full text-xl text-center text-black py-8 px-12 border-2 border-buttonBg " key={i} children={solution} />))
+          solutions.map((solution, i) => (<Description className="solutionBorder w-full text-xl text-center text-black py-8 px-12 flex justify-center items-center " key={i} children={solution} />))
         }
       </div>
       {/* link  */}
       <Link className=" w-fit rounded-lg flex justify-center items-center" href={button.link} >
-        <Button className=" button" children={button.text} />
+        <Button className="  button border-none  " children={button.text} />
       </Link>
     </div>
   )

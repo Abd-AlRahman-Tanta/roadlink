@@ -11,5 +11,6 @@ Route::group(
   ],
   function () {
     Route::get("/", [HomePageController::class, "showHomePage"]);
+    Route::post("/send-form", [HomePageController::class, "recieveFormMessages"]);
   }
 );

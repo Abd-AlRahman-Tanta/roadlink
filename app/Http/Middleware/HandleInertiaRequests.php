@@ -41,7 +41,11 @@ class HandleInertiaRequests extends Middleware
         ? $request->user()->only('id', 'name', 'email')
         : null,
       'locale' => LaravelLocalization::getCurrentLocale(),
-      "supportedLocals" => LaravelLocalization::getSupportedLocales()
+      "supportedLocals" => LaravelLocalization::getSupportedLocales(),
+      "flash" => [
+        "success" => $request->session()->get("success"),
+        "error" => $request->session()->get("error")
+      ]
     ]);
   }
 }

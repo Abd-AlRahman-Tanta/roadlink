@@ -1,7 +1,7 @@
 
 const RegularLayer = ({ className }: { className?: string }) => {
   return (
-    <div className={`${className} regularLayer w-full h-full absolute top-0 left-0 `}>
+    <div className={` regularLayer ${className} w-full h-full absolute top-0 left-0 `}>
 
     </div>
   )

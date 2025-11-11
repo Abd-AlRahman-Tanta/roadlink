@@ -27,9 +27,9 @@ const GiveAndRecieve = ({ giveAndRecieve }: { giveAndRecieve: GiveAndRecieveProp
       {/* the container of steps */}
 
       {/* each step can recieve an image and imageClassName for <icon/> jsx element...and title with description for the step...and arrowImage picture ...and 2 boolean parameters active , lastOne to set wich step it is active and which step is the last one  */}
-      <div className=" w-full flex desc:flex-col justify-center items-start gap-16 ">
+      <div className=" w-full flex desc:flex-col justify-center items-start gap-16  ">
         {
-          giveAndRecieve.steps.map((step, i) => (<Step lastOne={arrowChange == giveAndRecieve.steps.length - 1} active={i == arrowChange} key={i} image={step.image} title={step.title} arrowImage={giveAndRecieve.arrowImage} description={step.description} />))
+          giveAndRecieve.steps.map((step, i) => (<Step descriptionTextSize="text-lg" lastOne={arrowChange == giveAndRecieve.steps.length - 1} active={i == arrowChange} key={i} image={step.image} title={step.title} arrowImage={giveAndRecieve.arrowImage} description={step.description} />))
         }
       </div>
     </div>

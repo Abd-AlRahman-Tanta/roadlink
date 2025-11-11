@@ -79,7 +79,7 @@
         ]
       },
       {
-        "image": "/storage/images/plane.webp",
+        "image": "/storage/images/users.webp",
         "description": "إدارة الحساب الشخصي",
         "explainations": [
           "مدير حسابك الشخصي سيرافقك من البداية الى النهاية ,سواء كان استفسارك عن الشحن او تتبع الطلبات او ادارة الفواتير ستجد الدعم الكامل متاح دائما"
@@ -124,7 +124,7 @@
     ]
   },
   "logesticSolutions": {
-    "image": "/storage/images/trucks.webp",
+    "image": "/storage/images/box.webp",
     "title": "حلول لوجستية للشركات والمتاجر الإلكترونية",
     "solutions": [
       "اتفاقيات خدمة (SLAs)",
@@ -139,7 +139,7 @@
   },
   "roadLink": {
     "title": "رود لينك",
-    "image": "/storage/images/eng.webp",
+    "image": "/storage/images/box-delivre.webp",
     "descriptions": [
       "نحن شركة سعودية تقدّم حلول الشحن والتوصيل من المتاجر والشركات إلى العميل النهائي في أنحاء المملكة.",
       "نصمّم عروضًا مخصّصة وعقودًا مرنة تدعم نمو شركائنا وتواكب مواسم الذروة وتنوّع القطاعات.",
@@ -231,7 +231,7 @@
     ]
   },
   "contactUs": {
-    "image": "/storage/images/trucks2.webp",
+    "image": "/storage/images/car.webp",
     "title": "تواصل معنا",
     "inputs": [
       {
@@ -258,7 +258,8 @@
     "button": {
       "type": "submit",
       "text": "تواصل معنا"
-    }
+    },
+    "popUp": { "message": "تم الارسال بنجاح!", "ok": "حسنا" }
   },
   "footer": {
     "whoAreWe": {

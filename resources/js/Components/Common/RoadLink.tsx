@@ -14,7 +14,7 @@ const RoadLink = ({ roadLink }: { roadLink: RoadLinkProps }) => {
         {/* img of the section with layer */}
         <div className=" max-w-md w-full aspect-[1.4] relative rounded-lg overflow-hidden ">
           <img className=" absCover " src={roadLink.image} alt="" />
-          <RegularLayer />
+          <RegularLayer className=" from-10% to-80% " />
         </div>
         {/* definations */}
         <div className=" w-full grid grid-cols-2 desc:grid-cols-1 gap-5 ">

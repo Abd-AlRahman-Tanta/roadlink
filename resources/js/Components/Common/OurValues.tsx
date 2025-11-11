@@ -13,7 +13,7 @@ const OurValues = ({ ourValue }: { ourValue: OurValuesProps }) => {
           ourValue.values.map((value, i) => (
             <div key={i} className="w-full  rounded-lg p-5 bg-giveAndRecieveBackgroundColor text-center ">
               {/* value of our values */}
-              <Step imageClassName="bg-white/10" image={value.image} description={value.description} />
+              <Step descriptionTextSize="text-xl font-medium" imageClassName="bg-white/10" image={value.image} description={value.description} />
             </div>
           ))
         }

@@ -79,7 +79,7 @@
         ]
       },
       {
-        "image": "/storage/images/plane.webp",
+        "image": "/storage/images/users.webp",
         "description": "Personal Account Management",
         "explainations": [
           "Your personal account manager will assist you from start to finish. Whether your inquiry is about shipping, tracking, or billing, full support is always available."
@@ -124,7 +124,7 @@
     ]
   },
   "logesticSolutions": {
-    "image": "/storage/images/trucks.webp",
+    "image": "/storage/images/box.webp",
     "title": "Logistics Solutions for Businesses and E-Stores",
     "solutions": [
       "Service Level Agreements (SLAs)",
@@ -139,7 +139,7 @@
   },
   "roadLink": {
     "title": "RoadLink",
-    "image": "/storage/images/eng.webp",
+    "image": "/storage/images/box-delivre.webp",
     "descriptions": [
       "We are a Saudi company providing shipping and delivery solutions from stores and companies to end customers across the Kingdom.",
       "We design customized offers and flexible contracts that support our partners’ growth and meet seasonal and sectoral demands.",
@@ -231,7 +231,7 @@
     ]
   },
   "contactUs": {
-    "image": "/storage/images/trucks2.webp",
+    "image": "/storage/images/car.webp",
     "title": "Contact Us",
     "inputs": [
       {
@@ -258,6 +258,10 @@
     "button": {
       "type": "submit",
       "text": "Contact Us"
+    },
+    "popUp": {
+      "message": "Your action was completed successfully.",
+      "ok": "ok"
     }
   },
   "footer": {

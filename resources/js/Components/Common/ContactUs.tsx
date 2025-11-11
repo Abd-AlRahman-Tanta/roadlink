@@ -6,11 +6,11 @@ const ContactUs = ({ contactUs }: { contactUs: ContactUsProps }) => {
   return (
     <div id='contact' className='w-full flex desc:flex-col-reverse justify-center items-start gap-5 mt-36 '>
       {/* form of this section */}
-      <ContactUsForm button={contactUs.button} title={contactUs.title} inputs={contactUs.inputs} />
+      <ContactUsForm popUp={contactUs.popUp} button={contactUs.button} title={contactUs.title} inputs={contactUs.inputs} />
       {/* img of section with its layer */}
       <div className=' max-w-xl w-full aspect-[1.2] relative rounded-lg overflow-hidden '>
         <img className=' absCover ' src={contactUs.image} alt="" />
-        <RegularLayer />
+        <RegularLayer className=' from-5% to-50% ' />
       </div>
     </div>
   )

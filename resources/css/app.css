@@ -67,7 +67,7 @@ input:focus {
   }
 
   .heroLayer {
-    @apply bg-gradient-to-t to-heroLayerColorEnd from-heroLayerColorStart from-[50%];
+    @apply bg-gradient-to-b from-buttonBg/10 to-[#121539]/70 to-55%;
   }
 
   .footerGradient {
@@ -75,7 +75,7 @@ input:focus {
   }
 
   .regularLayer {
-    @apply bg-gradient-to-b from-regularLayerStart from-10% to-regularLayerEnd to-50%;
+    @apply bg-gradient-to-b from-[#121539]/0 to-[#121539]/70;
   }
 
   .saveSpace {
@@ -84,6 +84,14 @@ input:focus {
 
   .max-screen {
     @apply max-w-[1920px]
+  }
+
+  .solutionBorder {
+    @apply rounded-[4px] border-[1px] border-buttonBg
+  }
+
+  .rightsBorder {
+    @apply border-t-[1px] border-white/10
   }
 }
 

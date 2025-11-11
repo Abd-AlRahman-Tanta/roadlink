@@ -10,7 +10,7 @@ const LogesticSolutions = ({ logesticSolutions }: { logesticSolutions: LogesticS
       {/* picture of the section  with layer */}
       <div className=" max-w-xl w-full aspect-[1.5]  relative rounded-lg overflow-hidden ">
         <img className="  absCover  " src={logesticSolutions.image} alt="" />
-        <RegularLayer />
+        <RegularLayer className=" from-5% to-70% " />
       </div>
     </div>
   )

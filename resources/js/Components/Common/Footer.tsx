@@ -6,7 +6,7 @@ import WhoAreWe from "./WhoAreWe"
 
 const Footer = ({ footer }: { footer: FooterProps }) => {
   return (
-    <div className=" w-full py-16 footerGradient saveSpace ">
+    <div className=" w-full pt-16 footerGradient saveSpace ">
       {/* footer starts from here */}
       <div className=" w-full pt-8 px-5 pb-20 flex desc:flex-col justify-between items-start gap-20 ">
         {/* who are we part */}
@@ -17,7 +17,7 @@ const Footer = ({ footer }: { footer: FooterProps }) => {
         <FooterContactUs title={footer.contactWithUs.title} informations={footer.contactWithUs.informations} />
       </div>
       {/* rights in footer */}
-      <Description dir="ltr" className=" text-white py-6 px-4 text-center " children={footer.rights} />
+      <Description dir="ltr" className=" text-white py-6 px-4 text-center rightsBorder " children={footer.rights} />
     </div>
   )
 }

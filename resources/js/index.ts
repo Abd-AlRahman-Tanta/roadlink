@@ -71,7 +71,8 @@ export type ContactUsProps = {
   image: string,
   title: string,
   inputs: { label: string, type: string, name: string }[],
-  button: { type: string, text: string }
+  button: { type: string, text: string },
+  popUp: { message: string, ok: string }
 }
 // footer section props
 export type FooterProps = {
